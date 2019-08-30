@@ -8,7 +8,14 @@ public class Rectangle {
         this.width=width;
         this.length=length;
     }
+
     public float area() {
-        return  0;
+
+        return  length;
+    }
+
+
+    public float perimeter() {
+        return 0.0f;
     }
 }
