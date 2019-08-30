@@ -9,6 +9,6 @@ public class Rectangle {
         this.length=length;
     }
     public float area() {
-        return  0.0f;
+        return  0;
     }
 }

@@ -10,7 +10,6 @@ public class RectangleTest {
 
         Rectangle rectangle=new Rectangle(0,0);
         Assertions.assertEquals(0,rectangle.area());
-
     }
 
 }
