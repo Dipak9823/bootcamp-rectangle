@@ -17,5 +17,11 @@ public class SquareTest {
         Assertions.assertEquals(1.0f,square.area());
     }
 
+    @Test
+    void givenSideTwo_whenCalculateArea_ThenReturnFour() {
+        Square square=new Square(2.0f);
+        Assertions.assertEquals(4.0f,square.area());
+    }
+
 
 }
