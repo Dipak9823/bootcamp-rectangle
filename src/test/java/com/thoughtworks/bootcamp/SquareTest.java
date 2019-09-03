@@ -23,5 +23,11 @@ public class SquareTest {
         Assertions.assertEquals(4.0f,square.area());
     }
 
+    @Test
+    void givenSideZero_WhenCalculatePerimeter_ThenReturnZero(){
+
+        Square square=new Square(0.0f);
+        Assertions.assertEquals(0.0f,square.perimeter());
+    }
 
 }
