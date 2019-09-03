@@ -30,4 +30,10 @@ public class SquareTest {
         Assertions.assertEquals(0.0f,square.perimeter());
     }
 
+    @Test
+    void givenSideOne_WhenCalculatePerimeter_ThenReturnFour(){
+        Square square=new Square(1.0f);
+        Assertions.assertEquals(4.0f, square.perimeter());
+    }
+
 }

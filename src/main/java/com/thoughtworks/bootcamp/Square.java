@@ -12,6 +12,6 @@ public class Square {
     }
 
     float perimeter() {
-        return 0.0f;
+        return 4*side;
     }
 }
