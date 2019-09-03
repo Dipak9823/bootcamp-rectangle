@@ -8,6 +8,6 @@ public class Square {
     }
 
     float area() {
-        return 0.0f;
+        return side;
     }
 }
