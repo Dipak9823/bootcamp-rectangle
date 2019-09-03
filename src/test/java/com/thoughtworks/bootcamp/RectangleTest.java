@@ -1,4 +1,4 @@
-package com.thoughtworks.bootcamp.rectangleTest;
+package com.thoughtworks.bootcamp;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
